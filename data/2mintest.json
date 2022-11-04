@@ -5,8 +5,8 @@
             "startRate": 0,
             "startTime": "0s",
             "timeUnit": "1m",
-            "preAllocatedVUs": 1,
-            "maxVUs": 50,
+            "preAllocatedVUs": 10,
+            "maxVUs": 1000,
             "executor": "ramping-arrival-rate",
             "stages": [
                 {
@@ -32,8 +32,8 @@
             "startRate": 0,
             "startTime": "0s",
             "timeUnit": "1m",
-            "preAllocatedVUs": 1,
-            "maxVUs": 50,
+            "preAllocatedVUs": 10,
+            "maxVUs": 1000,
             "executor": "ramping-arrival-rate",
             "stages": [
                 {

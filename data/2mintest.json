@@ -11,19 +11,19 @@
             "stages": [
                 {
                     "duration": "0s",
-                    "target": 19
+                    "target": 192
                 },
                 {
                     "duration": "1m",
-                    "target": 19
+                    "target": 192
                 },
                 {
                     "duration": "0s",
-                    "target": 19
+                    "target": 192
                 },
                 {
                     "duration": "1m",
-                    "target": 19
+                    "target": 192
                 }
             ]
         },
@@ -38,19 +38,19 @@
             "stages": [
                 {
                     "duration": "0s",
-                    "target": 91
+                    "target": 911
                 },
                 {
                     "duration": "1m",
-                    "target": 91
+                    "target": 911
                 },
                 {
                     "duration": "0s",
-                    "target": 121
+                    "target": 1208
                 },
                 {
                     "duration": "1m",
-                    "target": 121
+                    "target": 1208
                 }
             ]
         }

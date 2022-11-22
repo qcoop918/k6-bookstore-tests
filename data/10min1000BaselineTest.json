@@ -6,16 +6,16 @@
             "startTime": "0s",
             "timeUnit": "1m",
             "preAllocatedVUs": 1,
-            "maxVUs": 50,
+            "maxVUs": 1000,
             "executor": "ramping-arrival-rate",
             "stages": [
                 {
                     "duration": "0s",
-                    "target": 100
+                    "target": 1000
                 },
                 {
                     "duration": "10m",
-                    "target": 100
+                    "target": 1000
                 }
             ]
         },
@@ -25,16 +25,16 @@
             "startTime": "0s",
             "timeUnit": "1m",
             "preAllocatedVUs": 1,
-            "maxVUs": 50,
+            "maxVUs": 1000,
             "executor": "ramping-arrival-rate",
             "stages": [
                 {
                     "duration": "0s",
-                    "target": 100
+                    "target": 1000
                 },
                 {
                     "duration": "10m",
-                    "target": 100
+                    "target": 1000
                 }
             ]
         }

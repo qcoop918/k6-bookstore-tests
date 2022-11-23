@@ -11,11 +11,11 @@
             "stages": [
                 {
                     "duration": "0s",
-                    "target": 225
+                    "target": 250
                 },
                 {
                     "duration": "10m",
-                    "target": 225
+                    "target": 250
                 }
             ]
         }

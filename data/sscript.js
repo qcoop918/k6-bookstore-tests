@@ -50,7 +50,8 @@ export function execute_get_book() {
   get_book_duration_trend.add(get_book_response.timings.duration);
   get_book_counter.add(1);
   check(get_book_response, {
-    'is_get_book_200': r => r.status === 200
+    'is_get_book_200': r => r.status === 200,
+    'is id present': r => r.json().hasOwnProperty('_id')
   });
 }
 export function execute_random_login() {

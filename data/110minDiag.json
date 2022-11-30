@@ -1,0 +1,202 @@
+{
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_book",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 1,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 100
+                },
+                {
+                    "duration": "10m",
+                    "target": 100
+                },
+                {
+                    "duration": "0s",
+                    "target": 250
+                },
+                {
+                    "duration": "10m",
+                    "target": 250
+                },
+                {
+                    "duration": "0s",
+                    "target": 500
+                },
+                {
+                    "duration": "10m",
+                    "target": 500
+                },
+                {
+                    "duration": "0s",
+                    "target": 750
+                },
+                {
+                    "duration": "10m",
+                    "target": 750
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "10m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 1250
+                },
+                {
+                    "duration": "10m",
+                    "target": 1250
+                },
+                {
+                    "duration": "0s",
+                    "target": 1500
+                },
+                {
+                    "duration": "10m",
+                    "target": 1500
+                },
+                {
+                    "duration": "0s",
+                    "target": 1750
+                },
+                {
+                    "duration": "10m",
+                    "target": 1750
+                },
+                {
+                    "duration": "0s",
+                    "target": 2000
+                },
+                {
+                    "duration": "10m",
+                    "target": 2000
+                },
+                {
+                    "duration": "0s",
+                    "target": 2250
+                },
+                {
+                    "duration": "10m",
+                    "target": 2250
+                },
+                {
+                    "duration": "0s",
+                    "target": 2500
+                },
+                {
+                    "duration": "10m",
+                    "target": 2500
+                }
+            ]
+        },
+        "secondScenario": {
+            "exec": "execute_random_login",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 1,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 10
+                },
+                {
+                    "duration": "10m",
+                    "target": 10
+                },
+                {
+                    "duration": "0s",
+                    "target": 25
+                },
+                {
+                    "duration": "10m",
+                    "target": 25
+                },
+                {
+                    "duration": "0s",
+                    "target": 50
+                },
+                {
+                    "duration": "10m",
+                    "target": 50
+                },
+                {
+                    "duration": "0s",
+                    "target": 75
+                },
+                {
+                    "duration": "10m",
+                    "target": 75
+                },
+                {
+                    "duration": "0s",
+                    "target": 100
+                },
+                {
+                    "duration": "10m",
+                    "target": 100
+                },
+                {
+                    "duration": "0s",
+                    "target": 125
+                },
+                {
+                    "duration": "10m",
+                    "target": 125
+                },
+                {
+                    "duration": "0s",
+                    "target": 150
+                },
+                {
+                    "duration": "10m",
+                    "target": 150
+                },
+                {
+                    "duration": "0s",
+                    "target": 175
+                },
+                {
+                    "duration": "10m",
+                    "target": 175
+                },
+                {
+                    "duration": "0s",
+                    "target": 200
+                },
+                {
+                    "duration": "10m",
+                    "target": 200
+                },
+                {
+                    "duration": "0s",
+                    "target": 225
+                },
+                {
+                    "duration": "10m",
+                    "target": 225
+                },
+                {
+                    "duration": "0s",
+                    "target": 250
+                },
+                {
+                    "duration": "10m",
+                    "target": 250
+                }
+            ]
+        }
+    }
+}

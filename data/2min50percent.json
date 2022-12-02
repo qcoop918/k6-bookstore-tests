@@ -1,16 +1,5 @@
 {
     "scenarios": {
-        "firstScenario": {
-            "exec": "execute_get_book",
-            "startRate": 0,
-            "startTime": "0s",
-            "timeUnit": "1m",
-            "preAllocatedVUs": 1,
-            "maxVUs": 1000,
-            "executor": "ramping-arrival-rate",
-            "stages": [],
-            "gracefulStop": "30s"
-        },
         "secondScenario": {
             "exec": "execute_random_login",
             "startRate": 0,

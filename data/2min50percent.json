@@ -1,0 +1,35 @@
+{
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_book",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 1,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [],
+            "gracefulStop": "30s"
+        },
+        "secondScenario": {
+            "exec": "execute_random_login",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 1,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 125
+                },
+                {
+                    "duration": "2m",
+                    "target": 125
+                }
+            ],
+            "gracefulStop": "30s"
+        }
+    }
+}

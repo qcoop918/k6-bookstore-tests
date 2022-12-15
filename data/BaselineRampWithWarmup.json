@@ -75,14 +75,6 @@
                 },
                 {
                     "duration": "0s",
-                    "target": 1250
-                },
-                {
-                    "duration": "3m",
-                    "target": 1250
-                },
-                {
-                    "duration": "0s",
                     "target": 1200
                 },
                 {
@@ -208,14 +200,6 @@
                 {
                     "duration": "3m",
                     "target": 1200
-                },
-                {
-                    "duration": "0s",
-                    "target": 1250
-                },
-                {
-                    "duration": "3m",
-                    "target": 1250
                 },
                 {
                     "duration": "0s",

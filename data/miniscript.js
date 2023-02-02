@@ -14,8 +14,8 @@ let stage1;
 let stage2;
 // not using SharedArray here will mean that the code in the function call (that is what loads and
 // parses the csv) will be executed per each VU which also means that there will be a complete copy
-const BaseURL = "http://a4d0ee6d7af0e41b08a48d65059fe5c2-107451142.us-west-2.elb.amazonaws.com:8080";
-//const BaseURL = "http://localhost:8080";
+//const BaseURL = "http://a4d0ee6d7af0e41b08a48d65059fe5c2-107451142.us-west-2.elb.amazonaws.com:8080";
+const BaseURL = "http://localhost:9080";
 let login_duration_trend = new Trend('login_duration_trend', true);
 let get_book_duration_trend = new Trend('get_book_duration_trend', true);
 
@@ -24,8 +24,8 @@ let login_counter = new Counter('login_counter');
 let get_book_counter = new Counter('get_book_counter');
 
 
-const AuthedUsers = [{ "name": "vahid4m", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTUxNjUyY2U4OTVjODAwMThjNjBjNzYiLCJpYXQiOjE1ODczMTI3Nzh9.OGyfN_ebSc8drinBIjW15jJKDAgvzDDyh-y3dtkTSVw" }];
-const books = [{ "_id": "5e5218426a4cea0021cdbf9a" }];
+const AuthedUsers = [{"name":"aaberg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTUxOTA3OGNiMDc2YjAwMWYzYWJhM2EiLCJpYXQiOjE1ODMzNzAxNTF9.LySYXKmDavsBri_Q0cd0Nn8gNpyap_LzisR2ZVzeJ3I"}];
+const books = [{"_id":"5e5218456a4cea0021cdbfbb"}];
 
 function get_random_item(items) {
   const item = items[Math.floor(Math.random() * items.length)];

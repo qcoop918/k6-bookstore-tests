@@ -16,6 +16,14 @@
                 {
                     "duration": "15m",
                     "target": 900
+                },
+                {
+                    "duration": "0s",
+                    "target": 1250
+                },
+                {
+                    "duration": "15m",
+                    "target": 1250
                 }
             ],
             "gracefulStop": "2m"
@@ -36,6 +44,14 @@
                 {
                     "duration": "15m",
                     "target": 900
+                },
+                {
+                    "duration": "0s",
+                    "target": 1250
+                },
+                {
+                    "duration": "15m",
+                    "target": 1250
                 }
             ],
             "gracefulStop": "2m"

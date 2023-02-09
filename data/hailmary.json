@@ -1,0 +1,108 @@
+{
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_book",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 1,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "3m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 1500
+                },
+                {
+                    "duration": "3m",
+                    "target": 1500
+                },
+                {
+                    "duration": "0s",
+                    "target": 2000
+                },
+                {
+                    "duration": "3m",
+                    "target": 2000
+                },
+                {
+                    "duration": "0s",
+                    "target": 3000
+                },
+                {
+                    "duration": "3m",
+                    "target": 3000
+                },
+                {
+                    "duration": "0s",
+                    "target": 5000
+                },
+                {
+                    "duration": "3m",
+                    "target": 5000
+                }
+            ],
+            "gracefulStop": "2m"
+        },
+        "secondScenario": {
+            "exec": "execute_random_login",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 1,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "3m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 1500
+                },
+                {
+                    "duration": "3m",
+                    "target": 1500
+                },
+                {
+                    "duration": "0s",
+                    "target": 2000
+                },
+                {
+                    "duration": "3m",
+                    "target": 2000
+                },
+                {
+                    "duration": "0s",
+                    "target": 3000
+                },
+                {
+                    "duration": "3m",
+                    "target": 3000
+                },
+                {
+                    "duration": "0s",
+                    "target": 5000
+                },
+                {
+                    "duration": "3m",
+                    "target": 5000
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

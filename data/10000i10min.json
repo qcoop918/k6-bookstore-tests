@@ -1,0 +1,24 @@
+{
+    "scenarios": {
+        "secondScenario": {
+            "exec": "execute_random_login",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 20,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 10000
+                },
+                {
+                    "duration": "10m",
+                    "target": 10000
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

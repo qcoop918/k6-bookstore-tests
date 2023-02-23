@@ -184,6 +184,38 @@
                 {
                     "duration": "10m",
                     "target": 15000
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "10m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 16000
+                },
+                {
+                    "duration": "10m",
+                    "target": 16000
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "10m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 17000
+                },
+                {
+                    "duration": "10m",
+                    "target": 17000
                 }
             ],
             "gracefulStop": "2m"

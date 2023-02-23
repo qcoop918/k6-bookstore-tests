@@ -22,7 +22,7 @@
                     "target": 5000
                 },
                 {
-                    "duration": "5m",
+                    "duration": "10m",
                     "target": 5000
                 },
                 {
@@ -30,7 +30,7 @@
                     "target": 6000
                 },
                 {
-                    "duration": "5m",
+                    "duration": "10m",
                     "target": 6000
                 },
                 {
@@ -38,7 +38,7 @@
                     "target": 7000
                 },
                 {
-                    "duration": "5m",
+                    "duration": "10m",
                     "target": 7000
                 },
                 {
@@ -46,7 +46,7 @@
                     "target": 8000
                 },
                 {
-                    "duration": "5m",
+                    "duration": "10m",
                     "target": 8000
                 },
                 {
@@ -54,7 +54,7 @@
                     "target": 9000
                 },
                 {
-                    "duration": "5m",
+                    "duration": "10m",
                     "target": 9000
                 }
             ],

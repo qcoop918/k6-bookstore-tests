@@ -1,0 +1,80 @@
+{
+    "scenarios": {
+        "secondScenario": {
+            "exec": "execute_random_login",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "5m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 3000
+                },
+                {
+                    "duration": "5m",
+                    "target": 3000
+                },
+                {
+                    "duration": "0s",
+                    "target": 4000
+                },
+                {
+                    "duration": "5m",
+                    "target": 4000
+                },
+                {
+                    "duration": "0s",
+                    "target": 4500
+                },
+                {
+                    "duration": "5m",
+                    "target": 4500
+                },
+                {
+                    "duration": "0s",
+                    "target": 4750
+                },
+                {
+                    "duration": "5m",
+                    "target": 4750
+                },
+                {
+                    "duration": "0s",
+                    "target": 5000
+                },
+                {
+                    "duration": "5m",
+                    "target": 5000
+                },
+                {
+                    "duration": "0s",
+                    "target": 5250
+                },
+                {
+                    "duration": "5m",
+                    "target": 5250
+                },
+                {
+                    "duration": "0s",
+                    "target": 5500
+                },
+                {
+                    "duration": "5m",
+                    "target": 5500
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

@@ -1,0 +1,284 @@
+{
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_book",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 6000
+                },
+                {
+                    "duration": "5m",
+                    "target": 6000
+                },
+                {
+                    "duration": "1m",
+                    "target": "14812"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14139"
+                },
+                {
+                    "duration": "1m",
+                    "target": "11000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14726"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14405"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14530"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14256"
+                },
+                {
+                    "duration": "1m",
+                    "target": "13802"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14992"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14624"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14295"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14507"
+                },
+                {
+                    "duration": "1m",
+                    "target": "13787"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14327"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14178"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14217"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14374"
+                },
+                {
+                    "duration": "1m",
+                    "target": "13701"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14225"
+                },
+                {
+                    "duration": "1m",
+                    "target": "13622"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14773"
+                },
+                {
+                    "duration": "1m",
+                    "target": "11611"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14789"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14342"
+                },
+                {
+                    "duration": "1m",
+                    "target": "15000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "13818"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14468"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14335"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14209"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14162"
+                }
+            ],
+            "gracefulStop": "2m"
+        },
+        "secondScenario": {
+            "exec": "execute_random_login",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "5m",
+                    "target": 1000
+                },
+                {
+                    "duration": "1m",
+                    "target": "1900"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1674"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1535"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1639"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1900"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1657"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1743"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1674"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1726"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1865"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1830"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1743"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1761"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1761"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1813"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1674"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1796"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1726"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1848"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1883"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1761"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1500"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1743"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1726"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1726"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1657"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1691"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1883"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1761"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1657"
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

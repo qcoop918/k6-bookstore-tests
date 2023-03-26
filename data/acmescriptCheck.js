@@ -44,7 +44,7 @@ export function execute_get_book() {
     //let body = Object.keys(flight).map(key => encodeURIComponent(key) + '=' + encodeURIComponent(flight[key])).join('&');
     let get_book_response = http.post(
         BaseURL + '/booking/byuser/uid0@email.com',
-        body,
+        //body,
         get_book_params
     );
     get_book_duration_trend.add(get_book_response.timings.duration);

@@ -1,0 +1,364 @@
+{
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_book",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "5m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1"
+                }
+            ],
+            "gracefulStop": "2m"
+        },
+        "secondScenario": {
+            "exec": "execute_random_login",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "5m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": "15068"
+                },
+                {
+                    "duration": "1m",
+                    "target": "15068"
+                },
+                {
+                    "duration": "0s",
+                    "target": "10000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "10000"
+                },
+                {
+                    "duration": "0s",
+                    "target": "11622"
+                },
+                {
+                    "duration": "1m",
+                    "target": "11622"
+                },
+                {
+                    "duration": "0s",
+                    "target": "10000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "10000"
+                },
+                {
+                    "duration": "0s",
+                    "target": "13446"
+                },
+                {
+                    "duration": "1m",
+                    "target": "13446"
+                },
+                {
+                    "duration": "0s",
+                    "target": "10000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "10000"
+                },
+                {
+                    "duration": "0s",
+                    "target": "15270"
+                },
+                {
+                    "duration": "1m",
+                    "target": "15270"
+                },
+                {
+                    "duration": "0s",
+                    "target": "10000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "10000"
+                },
+                {
+                    "duration": "0s",
+                    "target": "15068"
+                },
+                {
+                    "duration": "1m",
+                    "target": "15068"
+                },
+                {
+                    "duration": "0s",
+                    "target": "10000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "10000"
+                },
+                {
+                    "duration": "0s",
+                    "target": "10000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "10000"
+                },
+                {
+                    "duration": "0s",
+                    "target": "10000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "10000"
+                },
+                {
+                    "duration": "0s",
+                    "target": "15270"
+                },
+                {
+                    "duration": "1m",
+                    "target": "15270"
+                },
+                {
+                    "duration": "0s",
+                    "target": "10000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "10000"
+                },
+                {
+                    "duration": "0s",
+                    "target": "14865"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14865"
+                },
+                {
+                    "duration": "0s",
+                    "target": "10000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "10000"
+                },
+                {
+                    "duration": "0s",
+                    "target": "12432"
+                },
+                {
+                    "duration": "1m",
+                    "target": "12432"
+                },
+                {
+                    "duration": "0s",
+                    "target": "10000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "10000"
+                },
+                {
+                    "duration": "0s",
+                    "target": "14459"
+                },
+                {
+                    "duration": "1m",
+                    "target": "14459"
+                },
+                {
+                    "duration": "0s",
+                    "target": "10000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "10000"
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

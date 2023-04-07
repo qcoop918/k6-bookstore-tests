@@ -15,7 +15,7 @@ let stage2;
 // not using SharedArray here will mean that the code in the function call (that is what loads and
 // parses the csv) will be executed per each VU which also means that there will be a complete copy
 //const BaseURL = "http://a4d0ee6d7af0e41b08a48d65059fe5c2-107451142.us-west-2.elb.amazonaws.com:8080";
-const BaseURL = "http://54.212.182.100";
+const BaseURL = "http://136.159.209.203";
 let login_duration_trend = new Trend('login_duration_trend', true);
 let get_book_duration_trend = new Trend('get_flights_duration_trend', true);
 
@@ -26,13 +26,24 @@ let get_book_counter = new Counter('get_book_counter');
 
 const AuthedUsers = [{ "login": "uid0@email.com", "password": "password" }];
 const flights = [{ "fromAirport": "CDR", "toAirport": "LHR", "fromDate": "Wed Feb 01 2023 00:00:00 GMT-0700 (Mountain Standard Time)", "returnDate": "Wed Feb 01 2023 00:00:00 GMT-0700 (Mountain Standard Time)", "oneWay": false }];
+const airports = ["BRU", "CAI", "DXB", "GVA", "IST", "KHI", "KWI", "LOS", "MNL", "MEX", "NBO", "PRG", "GIG", "ARN", "BOM", "DEL", "FRA", "HKG", "LHR", "YUL", "SVO", "JFK", "CDG", "FCO", "SIN", "SYD", "IKA", "NRT", "AMS", "AKL", "BKK"]
 
 function get_random_item(items) {
     const item = items[Math.floor(Math.random() * items.length)];
     return item
 }
 export function execute_get_book() {
-    const flight = get_random_item(flights)
+    //const flight = get_random_item(flights)
+    const from = get_random_item(airports)
+    const dest = get_random_item(airports)
+    const d = new Date();
+    let text = d.toTimeString();
+    const flight = { 
+        "fromAirport": from, 
+        "toAirport": dest, 
+        "fromDate": text, 
+        "returnDate": text, 
+        "oneWay": false }
     let get_book_params = {
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',

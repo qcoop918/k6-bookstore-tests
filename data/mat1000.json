@@ -29,7 +29,7 @@
             "gracefulStop": "2m"
         },
         "secondScenario": {
-            "exec": "execute_random_bogo",
+            "exec": "execute_get_bogo",
             "startRate": 0,
             "startTime": "0s",
             "timeUnit": "1m",

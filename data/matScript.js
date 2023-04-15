@@ -48,13 +48,13 @@ export function execute_get_bogo() {
         },
     };
 
-    let bogo_response = http.post(
+    let get_bogo_response = http.post(
         BaseURL + ':8080/bogo',
         bogo_params
     );
-    get_bogo_duration_trend.add(bogo_response.timings.duration);
+    get_bogo_duration_trend.add(get_bogo_response.timings.duration);
     get_bogo_counter.add(1);
-    check(bogo_response, {
+    check(get_bogo_response, {
         'is_bogo_200': r => r.status === 200,
     });
 }

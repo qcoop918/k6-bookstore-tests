@@ -31,7 +31,7 @@ export function execute_get_write() {
             'Authorization' : '123' 
         }
     }
-    let get_write_response = http.post(
+    let get_write_response = http.get(
         BaseURL + ':8080/writeReadDelete',
         get_write_params
     );
@@ -48,7 +48,7 @@ export function execute_get_bogo() {
         },
     };
 
-    let get_bogo_response = http.post(
+    let get_bogo_response = http.get(
         BaseURL + ':8080/bogo',
         bogo_params
     );

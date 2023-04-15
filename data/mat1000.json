@@ -1,0 +1,60 @@
+{
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_write",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 100
+                },
+                {
+                    "duration": "2m",
+                    "target": 100
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "3m",
+                    "target": 1000
+                }
+            ],
+            "gracefulStop": "2m"
+        },
+        "secondScenario": {
+            "exec": "execute_random_bogo",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 100
+                },
+                {
+                    "duration": "2m",
+                    "target": 100
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "3m",
+                    "target": 1000
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

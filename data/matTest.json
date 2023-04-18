@@ -11,11 +11,11 @@
             "stages": [
                 {
                     "duration": "0s",
-                    "target": 1000
+                    "target": 1500
                 },
                 {
                     "duration": "5m",
-                    "target": 1000
+                    "target": 1500
                 },
                 {
                     "duration": "0s",
@@ -151,11 +151,11 @@
             "stages": [
                 {
                     "duration": "0s",
-                    "target": 1000
+                    "target": 1500
                 },
                 {
                     "duration": "5m",
-                    "target": 1000
+                    "target": 1500
                 },
                 {
                     "duration": "0s",

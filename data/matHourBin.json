@@ -35,11 +35,27 @@
                 },
                 {
                     "duration": "0s",
+                    "target": "1300"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1300"
+                },
+                {
+                    "duration": "0s",
                     "target": "1336"
                 },
                 {
                     "duration": "1m",
                     "target": "1336"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1300"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1300"
                 },
                 {
                     "duration": "0s",
@@ -67,11 +83,27 @@
                 },
                 {
                     "duration": "0s",
+                    "target": "1300"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1300"
+                },
+                {
+                    "duration": "0s",
                     "target": "1323"
                 },
                 {
                     "duration": "1m",
                     "target": "1323"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1300"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1300"
                 },
                 {
                     "duration": "0s",
@@ -115,11 +147,35 @@
                 },
                 {
                     "duration": "0s",
+                    "target": "1300"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1300"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1300"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1300"
+                },
+                {
+                    "duration": "0s",
                     "target": "1399"
                 },
                 {
                     "duration": "1m",
                     "target": "1399"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1300"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1300"
                 },
                 {
                     "duration": "0s",
@@ -147,6 +203,14 @@
                 },
                 {
                     "duration": "0s",
+                    "target": "1300"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1300"
+                },
+                {
+                    "duration": "0s",
                     "target": "1398"
                 },
                 {
@@ -163,11 +227,27 @@
                 },
                 {
                     "duration": "0s",
+                    "target": "1300"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1300"
+                },
+                {
+                    "duration": "0s",
                     "target": "1387"
                 },
                 {
                     "duration": "1m",
                     "target": "1387"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1300"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1300"
                 },
                 {
                     "duration": "0s",
@@ -215,11 +295,27 @@
                 },
                 {
                     "duration": "0s",
+                    "target": "1500"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1500"
+                },
+                {
+                    "duration": "0s",
                     "target": "1529"
                 },
                 {
                     "duration": "1m",
                     "target": "1529"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1500"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1500"
                 },
                 {
                     "duration": "0s",
@@ -263,11 +359,35 @@
                 },
                 {
                     "duration": "0s",
+                    "target": "1500"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1500"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1500"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1500"
+                },
+                {
+                    "duration": "0s",
                     "target": "1729"
                 },
                 {
                     "duration": "1m",
                     "target": "1729"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1500"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1500"
                 },
                 {
                     "duration": "0s",
@@ -295,11 +415,27 @@
                 },
                 {
                     "duration": "0s",
+                    "target": "1500"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1500"
+                },
+                {
+                    "duration": "0s",
                     "target": "1643"
                 },
                 {
                     "duration": "1m",
                     "target": "1643"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1500"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1500"
                 },
                 {
                     "duration": "0s",
@@ -327,6 +463,14 @@
                 },
                 {
                     "duration": "0s",
+                    "target": "1500"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1500"
+                },
+                {
+                    "duration": "0s",
                     "target": "1900"
                 },
                 {
@@ -343,11 +487,27 @@
                 },
                 {
                     "duration": "0s",
+                    "target": "1500"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1500"
+                },
+                {
+                    "duration": "0s",
                     "target": "1729"
                 },
                 {
                     "duration": "1m",
                     "target": "1729"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1500"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1500"
                 },
                 {
                     "duration": "0s",

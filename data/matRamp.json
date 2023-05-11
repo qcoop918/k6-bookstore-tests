@@ -27,19 +27,27 @@
                 },
                 {
                     "duration": "0s",
-                    "target": 1500
+                    "target": 1550
                 },
                 {
                     "duration": "3m",
-                    "target": 1500
+                    "target": 1550
                 },
                 {
                     "duration": "0s",
-                    "target": 1600
+                    "target": 1300
                 },
                 {
                     "duration": "3m",
-                    "target": 1600
+                    "target": 1300
+                },
+                {
+                    "duration": "0s",
+                    "target": 1550
+                },
+                {
+                    "duration": "3m",
+                    "target": 1550
                 }
             ],
             "gracefulStop": "2m"
@@ -63,11 +71,19 @@
                 },
                 {
                     "duration": "0s",
-                    "target": 1300
+                    "target": 1650
                 },
                 {
                     "duration": "3m",
-                    "target": 1300
+                    "target": 1650
+                },
+                {
+                    "duration": "0s",
+                    "target": 2000
+                },
+                {
+                    "duration": "3m",
+                    "target": 2000
                 },
                 {
                     "duration": "0s",

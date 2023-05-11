@@ -16,8 +16,9 @@ let stage2;
 const BaseURL = "http://136.159.209.203";
 let get_bogo_duration_trend = new Trend('get_bogo_duration_trend', true);
 let get_write_duration_trend = new Trend('get_write_duration_trend', true);
+let get_bubble_duration_trend = new Trend('get_bubble_duration_trend', true);
 
-
+let get_bubble_counter = new Counter('bogo_counter');
 let get_bogo_counter = new Counter('bogo_counter');
 let get_write_counter = new Counter('write_counter');
 
@@ -56,5 +57,22 @@ export function execute_get_bogo() {
     get_bogo_counter.add(1);
     check(get_bogo_response, {
         'is_bogo_200': r => r.status === 200,
+    });
+}
+export function execute_get_bubble() {
+    let bubble_params = {
+        headers: {
+            'Authorization' : '123' 
+        },
+    };
+
+    let get_bubble_response = http.get(
+        BaseURL + ':8080/bogo',
+        bubble_params
+    );
+    get_bubble_duration_trend.add(get_bubble_response.timings.duration);
+    get_bubble_counter.add(1);
+    check(get_bubble_response, {
+        'is_bubble_200': r => r.status === 200,
     });
 }

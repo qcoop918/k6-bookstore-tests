@@ -19,35 +19,35 @@
                 },
                 {
                     "duration": "0s",
-                    "target": 1650
+                    "target": 3300
                 },
                 {
                     "duration": "3m",
-                    "target": 1650
+                    "target": 3300
                 },
                 {
                     "duration": "0s",
-                    "target": 2000
+                    "target": 4000
                 },
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 4000
                 },
                 {
                     "duration": "0s",
-                    "target": 1650
+                    "target": 3300
                 },
                 {
                     "duration": "3m",
-                    "target": 1650
+                    "target": 3300
                 },
                 {
                     "duration": "0s",
-                    "target": 2000
+                    "target": 4000
                 },
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 4000
                 }
             ],
             "gracefulStop": "2m"

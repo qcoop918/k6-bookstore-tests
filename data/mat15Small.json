@@ -1,0 +1,204 @@
+{
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_bubble",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "10m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 500
+                },
+                {
+                    "duration": "1m",
+                    "target": 500
+                },
+                {
+                    "duration": "0s",
+                    "target": 600
+                },
+                {
+                    "duration": "1m",
+                    "target": 600
+                },
+                {
+                    "duration": "0s",
+                    "target": 700
+                },
+                {
+                    "duration": "1m",
+                    "target": 700
+                },
+                {
+                    "duration": "0s",
+                    "target": 800
+                },
+                {
+                    "duration": "1m",
+                    "target": 800
+                },
+                {
+                    "duration": "0s",
+                    "target": 900
+                },
+                {
+                    "duration": "1m",
+                    "target": 900
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "1m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 500
+                },
+                {
+                    "duration": "1m",
+                    "target": 500
+                },
+                {
+                    "duration": "0s",
+                    "target": 500
+                },
+                {
+                    "duration": "1m",
+                    "target": 500
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "1m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "1m",
+                    "target": 1000
+                }
+            ],
+            "gracefulStop": "2m"
+        },
+        "secondScenario": {
+            "exec": "execute_get_bogo",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "0s",
+                    "target": 500
+                },
+                {
+                    "duration": "10m",
+                    "target": 500
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "1m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 1200
+                },
+                {
+                    "duration": "1m",
+                    "target": 1200
+                },
+                {
+                    "duration": "0s",
+                    "target": 1400
+                },
+                {
+                    "duration": "1m",
+                    "target": 1400
+                },
+                {
+                    "duration": "0s",
+                    "target": 1600
+                },
+                {
+                    "duration": "1m",
+                    "target": 1600
+                },
+                {
+                    "duration": "0s",
+                    "target": 1800
+                },
+                {
+                    "duration": "1m",
+                    "target": 1800
+                },
+                {
+                    "duration": "0s",
+                    "target": 2000
+                },
+                {
+                    "duration": "1m",
+                    "target": 2000
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "1m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "1m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 2000
+                },
+                {
+                    "duration": "1m",
+                    "target": 2000
+                },
+                {
+                    "duration": "0s",
+                    "target": 2000
+                },
+                {
+                    "duration": "1m",
+                    "target": 2000
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

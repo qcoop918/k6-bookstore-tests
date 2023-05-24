@@ -14,7 +14,7 @@
                     "target": 1000
                 },
                 {
-                    "duration": "10m",
+                    "duration": "5m",
                     "target": 1000
                 },
                 {
@@ -22,7 +22,7 @@
                     "target": 500
                 },
                 {
-                    "duration": "1m",
+                    "duration": "2m",
                     "target": 500
                 },
                 {
@@ -30,55 +30,47 @@
                     "target": 600
                 },
                 {
-                    "duration": "1m",
+                    "duration": "2m",
                     "target": 600
                 },
                 {
                     "duration": "0s",
-                    "target": 700
+                    "target": 800
                 },
                 {
-                    "duration": "1m",
-                    "target": 700
+                    "duration": "2m",
+                    "target": 800
+                },
+                {
+                    "duration": "0s",
+                    "target": 1000
+                },
+                {
+                    "duration": "2m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 500
+                },
+                {
+                    "duration": "2m",
+                    "target": 500
                 },
                 {
                     "duration": "0s",
                     "target": 800
                 },
                 {
-                    "duration": "1m",
+                    "duration": "2m",
                     "target": 800
                 },
                 {
                     "duration": "0s",
-                    "target": 900
-                },
-                {
-                    "duration": "1m",
-                    "target": 900
-                },
-                {
-                    "duration": "0s",
-                    "target": 1000
-                },
-                {
-                    "duration": "1m",
-                    "target": 1000
-                },
-                {
-                    "duration": "0s",
                     "target": 500
                 },
                 {
-                    "duration": "1m",
-                    "target": 500
-                },
-                {
-                    "duration": "0s",
-                    "target": 500
-                },
-                {
-                    "duration": "1m",
+                    "duration": "2m",
                     "target": 500
                 },
                 {
@@ -86,15 +78,7 @@
                     "target": 1000
                 },
                 {
-                    "duration": "1m",
-                    "target": 1000
-                },
-                {
-                    "duration": "0s",
-                    "target": 1000
-                },
-                {
-                    "duration": "1m",
+                    "duration": "2m",
                     "target": 1000
                 }
             ],
@@ -114,7 +98,7 @@
                     "target": 500
                 },
                 {
-                    "duration": "10m",
+                    "duration": "5m",
                     "target": 500
                 },
                 {
@@ -122,63 +106,39 @@
                     "target": 1000
                 },
                 {
-                    "duration": "1m",
+                    "duration": "2m",
                     "target": 1000
                 },
                 {
                     "duration": "0s",
-                    "target": 1200
+                    "target": 1500
                 },
                 {
-                    "duration": "1m",
-                    "target": 1200
-                },
-                {
-                    "duration": "0s",
-                    "target": 1400
-                },
-                {
-                    "duration": "1m",
-                    "target": 1400
-                },
-                {
-                    "duration": "0s",
-                    "target": 1600
-                },
-                {
-                    "duration": "1m",
-                    "target": 1600
-                },
-                {
-                    "duration": "0s",
-                    "target": 1800
-                },
-                {
-                    "duration": "1m",
-                    "target": 1800
+                    "duration": "2m",
+                    "target": 1500
                 },
                 {
                     "duration": "0s",
                     "target": 2000
                 },
                 {
-                    "duration": "1m",
+                    "duration": "2m",
                     "target": 2000
                 },
                 {
                     "duration": "0s",
-                    "target": 1000
+                    "target": 2500
                 },
                 {
-                    "duration": "1m",
-                    "target": 1000
+                    "duration": "2m",
+                    "target": 2500
                 },
                 {
                     "duration": "0s",
                     "target": 1000
                 },
                 {
-                    "duration": "1m",
+                    "duration": "2m",
                     "target": 1000
                 },
                 {
@@ -186,16 +146,24 @@
                     "target": 2000
                 },
                 {
-                    "duration": "1m",
+                    "duration": "2m",
                     "target": 2000
                 },
                 {
                     "duration": "0s",
-                    "target": 2000
+                    "target": 1000
                 },
                 {
-                    "duration": "1m",
-                    "target": 2000
+                    "duration": "2m",
+                    "target": 1000
+                },
+                {
+                    "duration": "0s",
+                    "target": 1500
+                },
+                {
+                    "duration": "2m",
+                    "target": 1500
                 }
             ],
             "gracefulStop": "2m"

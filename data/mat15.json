@@ -14,128 +14,128 @@
                     "target": 4200
                 },
                 {
-                    "duration": "5m",
+                    "duration": "10m",
                     "target": 4200
                 },
                 {
                     "duration": "0s",
-                    "target": "4539"
+                    "target": "4413"
                 },
                 {
                     "duration": "1m",
-                    "target": "4539"
+                    "target": "4413"
                 },
                 {
                     "duration": "0s",
-                    "target": "3000"
+                    "target": "3200"
                 },
                 {
                     "duration": "1m",
-                    "target": "3000"
+                    "target": "3200"
                 },
                 {
                     "duration": "0s",
-                    "target": "4547"
+                    "target": "4419"
                 },
                 {
                     "duration": "1m",
-                    "target": "4547"
+                    "target": "4419"
                 },
                 {
                     "duration": "0s",
-                    "target": "4330"
+                    "target": "4248"
                 },
                 {
                     "duration": "1m",
-                    "target": "4330"
+                    "target": "4248"
                 },
                 {
                     "duration": "0s",
-                    "target": "4650"
+                    "target": "4500"
                 },
                 {
                     "duration": "1m",
-                    "target": "4650"
+                    "target": "4500"
                 },
                 {
                     "duration": "0s",
-                    "target": "4075"
+                    "target": "4047"
                 },
                 {
                     "duration": "1m",
-                    "target": "4075"
+                    "target": "4047"
                 },
                 {
                     "duration": "0s",
-                    "target": "4391"
+                    "target": "4296"
                 },
                 {
                     "duration": "1m",
-                    "target": "4391"
+                    "target": "4296"
                 },
                 {
                     "duration": "0s",
-                    "target": "4326"
+                    "target": "4245"
                 },
                 {
                     "duration": "1m",
-                    "target": "4326"
+                    "target": "4245"
                 },
                 {
                     "duration": "0s",
-                    "target": "4265"
+                    "target": "4197"
                 },
                 {
                     "duration": "1m",
-                    "target": "4265"
+                    "target": "4197"
                 },
                 {
                     "duration": "0s",
-                    "target": "4242"
+                    "target": "4179"
                 },
                 {
                     "duration": "1m",
-                    "target": "4242"
+                    "target": "4179"
                 },
                 {
                     "duration": "0s",
-                    "target": "4315"
+                    "target": "4236"
                 },
                 {
                     "duration": "1m",
-                    "target": "4315"
+                    "target": "4236"
                 },
                 {
                     "duration": "0s",
-                    "target": "4448"
+                    "target": "4341"
                 },
                 {
                     "duration": "1m",
-                    "target": "4448"
+                    "target": "4341"
                 },
                 {
                     "duration": "0s",
-                    "target": "4471"
+                    "target": "4359"
                 },
                 {
                     "duration": "1m",
-                    "target": "4471"
+                    "target": "4359"
                 },
                 {
                     "duration": "0s",
-                    "target": "4021"
+                    "target": "4005"
                 },
                 {
                     "duration": "1m",
-                    "target": "4021"
+                    "target": "4005"
                 },
                 {
                     "duration": "0s",
-                    "target": "4063"
+                    "target": "4038"
                 },
                 {
                     "duration": "1m",
-                    "target": "4063"
+                    "target": "4038"
                 }
             ],
             "gracefulStop": "2m"
@@ -154,7 +154,7 @@
                     "target": 1900
                 },
                 {
-                    "duration": "5m",
+                    "duration": "10m",
                     "target": 1900
                 },
                 {

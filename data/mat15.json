@@ -151,131 +151,131 @@
             "stages": [
                 {
                     "duration": "0s",
-                    "target": 3800
+                    "target": 3200
                 },
                 {
                     "duration": "5m",
-                    "target": 3800
+                    "target": 3200
                 },
                 {
                     "duration": "0s",
-                    "target": "4580"
+                    "target": "3980"
                 },
                 {
                     "duration": "2m",
-                    "target": "4580"
+                    "target": "3980"
                 },
                 {
                     "duration": "0s",
-                    "target": "3800"
+                    "target": "3200"
                 },
                 {
                     "duration": "2m",
-                    "target": "3800"
+                    "target": "3200"
                 },
                 {
                     "duration": "0s",
-                    "target": "4528"
+                    "target": "3928"
                 },
                 {
                     "duration": "2m",
-                    "target": "4528"
+                    "target": "3928"
                 },
                 {
                     "duration": "0s",
-                    "target": "4476"
+                    "target": "3876"
                 },
                 {
                     "duration": "2m",
-                    "target": "4476"
+                    "target": "3876"
                 },
                 {
                     "duration": "0s",
-                    "target": "4476"
+                    "target": "3876"
                 },
                 {
                     "duration": "2m",
-                    "target": "4476"
+                    "target": "3876"
                 },
                 {
                     "duration": "0s",
-                    "target": "4268"
+                    "target": "3668"
                 },
                 {
                     "duration": "2m",
-                    "target": "4268"
+                    "target": "3668"
                 },
                 {
                     "duration": "0s",
-                    "target": "4372"
+                    "target": "3772"
                 },
                 {
                     "duration": "2m",
-                    "target": "4372"
+                    "target": "3772"
                 },
                 {
                     "duration": "0s",
-                    "target": "4944"
+                    "target": "4344"
                 },
                 {
                     "duration": "2m",
-                    "target": "4944"
+                    "target": "4344"
                 },
                 {
                     "duration": "0s",
-                    "target": "4580"
+                    "target": "3980"
                 },
                 {
                     "duration": "2m",
-                    "target": "4580"
+                    "target": "3980"
                 },
                 {
                     "duration": "0s",
-                    "target": "4268"
+                    "target": "3668"
                 },
                 {
                     "duration": "2m",
-                    "target": "4268"
+                    "target": "3668"
                 },
                 {
                     "duration": "0s",
-                    "target": "4112"
+                    "target": "3512"
                 },
                 {
                     "duration": "2m",
-                    "target": "4112"
+                    "target": "3512"
                 },
                 {
                     "duration": "0s",
-                    "target": "4944"
+                    "target": "4344"
                 },
                 {
                     "duration": "2m",
-                    "target": "4944"
+                    "target": "4344"
                 },
                 {
                     "duration": "0s",
-                    "target": "5100"
+                    "target": "4500"
                 },
                 {
                     "duration": "2m",
-                    "target": "5100"
+                    "target": "4500"
                 },
                 {
                     "duration": "0s",
-                    "target": "4216"
+                    "target": "3616"
                 },
                 {
                     "duration": "2m",
-                    "target": "4216"
+                    "target": "3616"
                 },
                 {
                     "duration": "0s",
-                    "target": "4528"
+                    "target": "3928"
                 },
                 {
                     "duration": "2m",
-                    "target": "4528"
+                    "target": "3928"
                 }
             ],
             "gracefulStop": "2m"

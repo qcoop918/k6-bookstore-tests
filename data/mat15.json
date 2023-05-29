@@ -14,40 +14,40 @@
                     "target": 3200
                 },
                 {
-                    "duration": "5m",
+                    "duration": "10m",
                     "target": 3200
                 },
                 {
                     "duration": "0s",
-                    "target": "3946"
+                    "target": "3967"
                 },
                 {
                     "duration": "1m",
-                    "target": "3946"
+                    "target": "3967"
                 },
                 {
                     "duration": "0s",
-                    "target": "3200"
+                    "target": "3500"
                 },
                 {
                     "duration": "1m",
-                    "target": "3200"
+                    "target": "3500"
                 },
                 {
                     "duration": "0s",
-                    "target": "3950"
+                    "target": "3969"
                 },
                 {
                     "duration": "1m",
-                    "target": "3950"
+                    "target": "3969"
                 },
                 {
                     "duration": "0s",
-                    "target": "3845"
+                    "target": "3903"
                 },
                 {
                     "duration": "1m",
-                    "target": "3845"
+                    "target": "3903"
                 },
                 {
                     "duration": "0s",
@@ -59,51 +59,19 @@
                 },
                 {
                     "duration": "0s",
-                    "target": "3721"
+                    "target": "3826"
                 },
                 {
                     "duration": "1m",
-                    "target": "3721"
+                    "target": "3826"
                 },
                 {
                     "duration": "0s",
-                    "target": "3874"
+                    "target": "3921"
                 },
                 {
                     "duration": "1m",
-                    "target": "3874"
-                },
-                {
-                    "duration": "0s",
-                    "target": "3843"
-                },
-                {
-                    "duration": "1m",
-                    "target": "3843"
-                },
-                {
-                    "duration": "0s",
-                    "target": "3813"
-                },
-                {
-                    "duration": "1m",
-                    "target": "3813"
-                },
-                {
-                    "duration": "0s",
-                    "target": "3802"
-                },
-                {
-                    "duration": "1m",
-                    "target": "3802"
-                },
-                {
-                    "duration": "0s",
-                    "target": "3837"
-                },
-                {
-                    "duration": "1m",
-                    "target": "3837"
+                    "target": "3921"
                 },
                 {
                     "duration": "0s",
@@ -115,27 +83,59 @@
                 },
                 {
                     "duration": "0s",
-                    "target": "3913"
+                    "target": "3883"
                 },
                 {
                     "duration": "1m",
-                    "target": "3913"
+                    "target": "3883"
                 },
                 {
                     "duration": "0s",
-                    "target": "3695"
+                    "target": "3876"
                 },
                 {
                     "duration": "1m",
-                    "target": "3695"
+                    "target": "3876"
                 },
                 {
                     "duration": "0s",
-                    "target": "3715"
+                    "target": "3898"
                 },
                 {
                     "duration": "1m",
-                    "target": "3715"
+                    "target": "3898"
+                },
+                {
+                    "duration": "0s",
+                    "target": "3939"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3939"
+                },
+                {
+                    "duration": "0s",
+                    "target": "3946"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3946"
+                },
+                {
+                    "duration": "0s",
+                    "target": "3809"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3809"
+                },
+                {
+                    "duration": "0s",
+                    "target": "3822"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3822"
                 }
             ],
             "gracefulStop": "2m"
@@ -154,72 +154,48 @@
                     "target": 3200
                 },
                 {
-                    "duration": "5m",
+                    "duration": "10m",
                     "target": 3200
                 },
                 {
                     "duration": "0s",
-                    "target": "3680"
+                    "target": "3800"
                 },
                 {
                     "duration": "1m",
-                    "target": "3680"
+                    "target": "3800"
                 },
                 {
                     "duration": "0s",
-                    "target": "3200"
+                    "target": "3500"
                 },
                 {
                     "duration": "1m",
-                    "target": "3200"
+                    "target": "3500"
                 },
                 {
                     "duration": "0s",
-                    "target": "3648"
+                    "target": "3780"
                 },
                 {
                     "duration": "1m",
-                    "target": "3648"
+                    "target": "3780"
                 },
                 {
                     "duration": "0s",
-                    "target": "3616"
+                    "target": "3760"
                 },
                 {
                     "duration": "1m",
-                    "target": "3616"
+                    "target": "3760"
                 },
                 {
                     "duration": "0s",
-                    "target": "3616"
+                    "target": "3760"
                 },
                 {
                     "duration": "1m",
-                    "target": "3616"
-                },
-                {
-                    "duration": "0s",
-                    "target": "3488"
-                },
-                {
-                    "duration": "1m",
-                    "target": "3488"
-                },
-                {
-                    "duration": "0s",
-                    "target": "3552"
-                },
-                {
-                    "duration": "1m",
-                    "target": "3552"
-                },
-                {
-                    "duration": "0s",
-                    "target": "3904"
-                },
-                {
-                    "duration": "1m",
-                    "target": "3904"
+                    "target": "3760"
                 },
                 {
                     "duration": "0s",
@@ -231,27 +207,51 @@
                 },
                 {
                     "duration": "0s",
-                    "target": "3488"
+                    "target": "3720"
                 },
                 {
                     "duration": "1m",
-                    "target": "3488"
+                    "target": "3720"
                 },
                 {
                     "duration": "0s",
-                    "target": "3392"
+                    "target": "3940"
                 },
                 {
                     "duration": "1m",
-                    "target": "3392"
+                    "target": "3940"
                 },
                 {
                     "duration": "0s",
-                    "target": "3904"
+                    "target": "3800"
                 },
                 {
                     "duration": "1m",
-                    "target": "3904"
+                    "target": "3800"
+                },
+                {
+                    "duration": "0s",
+                    "target": "3680"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3680"
+                },
+                {
+                    "duration": "0s",
+                    "target": "3620"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3620"
+                },
+                {
+                    "duration": "0s",
+                    "target": "3940"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3940"
                 },
                 {
                     "duration": "0s",
@@ -263,19 +263,19 @@
                 },
                 {
                     "duration": "0s",
-                    "target": "3456"
+                    "target": "3660"
                 },
                 {
                     "duration": "1m",
-                    "target": "3456"
+                    "target": "3660"
                 },
                 {
                     "duration": "0s",
-                    "target": "3648"
+                    "target": "3780"
                 },
                 {
                     "duration": "1m",
-                    "target": "3648"
+                    "target": "3780"
                 }
             ],
             "gracefulStop": "2m"

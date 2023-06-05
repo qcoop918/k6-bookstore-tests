@@ -14,7 +14,7 @@
                     "target": 3200
                 },
                 {
-                    "duration": "1m",
+                    "duration": "60m",
                     "target": 3500
                 }
             ],
@@ -34,7 +34,7 @@
                     "target": 2000
                 },
                 {
-                    "duration": "1m",
+                    "duration": "60m",
                     "target": 6000
                 }
             ],

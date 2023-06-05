@@ -15,7 +15,7 @@
                 },
                 {
                     "duration": "1m",
-                    "target": 2000
+                    "target": 3500
                 }
             ],
             "gracefulStop": "2m"
@@ -35,7 +35,7 @@
                 },
                 {
                     "duration": "1m",
-                    "target": 3200
+                    "target": 6000
                 }
             ],
             "gracefulStop": "2m"

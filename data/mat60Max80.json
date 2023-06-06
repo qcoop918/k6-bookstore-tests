@@ -39,11 +39,11 @@
                 },
                 {
                     "duration": "0s",
-                    "target": 6200
+                    "target": 5000
                 },
                 {
                     "duration": "10m",
-                    "target": 6200
+                    "target": 5000
                 }
             ],
             "gracefulStop": "2m"

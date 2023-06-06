@@ -1,0 +1,44 @@
+{
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_bubble",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "1m",
+                    "target": 3200
+                },
+                {
+                    "duration": "10m",
+                    "target": 4000
+                }
+            ],
+            "gracefulStop": "2m"
+        },
+        "secondScenario": {
+            "exec": "execute_get_bogo",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "1m",
+                    "target": 2000
+                },
+                {
+                    "duration": "10m",
+                    "target": 6850
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

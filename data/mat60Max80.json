@@ -14,12 +14,8 @@
                     "target": 3200
                 },
                 {
-                    "duration": "0s",
-                    "target": 10000
-                },
-                {
                     "duration": "10m",
-                    "target": 10000
+                    "target": 8000
                 }
             ],
             "gracefulStop": "2m"
@@ -38,12 +34,8 @@
                     "target": 2000
                 },
                 {
-                    "duration": "0s",
-                    "target": 7000
-                },
-                {
                     "duration": "10m",
-                    "target": 7000
+                    "target": 6200
                 }
             ],
             "gracefulStop": "2m"

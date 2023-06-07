@@ -23,11 +23,11 @@
                 },
                 {
                     "duration": "0s",
-                    "target": 10000
+                    "target": 8500
                 },
                 {
                     "duration": "5m",
-                    "target": 10000
+                    "target": 8500
                 },
                 {
                     "duration": "0s",

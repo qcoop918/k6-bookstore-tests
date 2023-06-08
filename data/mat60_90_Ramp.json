@@ -1,0 +1,516 @@
+{
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_bubble",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "5m",
+                    "target": 6000
+                },
+                {
+                    "duration": "1m",
+                    "target": "1951"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3048"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2167"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1937"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1947"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1745"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2153"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1511"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1740"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1801"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2307"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2668"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2514"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1961"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2317"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2125"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1937"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3320"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2007"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2097"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1947"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2176"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1858"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1801"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2495"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1904"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2387"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2579"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1853"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1694"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1544"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1698"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1872"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2654"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1970"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2396"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2551"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2359"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3437"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4313"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3390"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3418"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2645"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4449"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4341"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4800"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3395"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5991"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4604"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3582"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2603"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3015"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2912"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2842"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2457"
+                },
+                {
+                    "duration": "1m",
+                    "target": "3933"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5995"
+                },
+                {
+                    "duration": "1m",
+                    "target": "6000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4796"
+                }
+            ],
+            "gracefulStop": "2m"
+        },
+        "secondScenario": {
+            "exec": "execute_get_bogo",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "5m",
+                    "target": 3000
+                },
+                {
+                    "duration": "1m",
+                    "target": "4721"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5147"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4863"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5053"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5195"
+                },
+                {
+                    "duration": "1m",
+                    "target": "6000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "6000"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5668"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5858"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5858"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5858"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4958"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4768"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5005"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5195"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5242"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5195"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4437"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4863"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5384"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5384"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5053"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5289"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5242"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5242"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4863"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4911"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5100"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4958"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4863"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5053"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4579"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5574"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5147"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5053"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4911"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5337"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5147"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5195"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4768"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4816"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4626"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4721"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4911"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4532"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4532"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4721"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4721"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4247"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4579"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5337"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5005"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5195"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5147"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5289"
+                },
+                {
+                    "duration": "1m",
+                    "target": "5147"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4484"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4200"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4579"
+                },
+                {
+                    "duration": "1m",
+                    "target": "4200"
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

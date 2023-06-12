@@ -1,7 +1,7 @@
 {
     "scenarios": {
         "firstScenario": {
-            "exec": "execute_get_write",
+            "exec": "execute_get_bubble",
             "startRate": 0,
             "startTime": "0s",
             "timeUnit": "1m",

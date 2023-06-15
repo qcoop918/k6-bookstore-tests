@@ -11,10 +11,6 @@
             "executor": "ramping-arrival-rate",
             "stages": [
                 {
-                    "duration": "1m",
-                    "target": 0
-                },
-                {
                     "duration": "3m",
                     "target": 8000
                 },
@@ -169,6 +165,10 @@
                 {
                     "duration": "1m",
                     "target": "8539"
+                },
+                {
+                    "duration": "1m",
+                    "target": 0
                 }
             ],
             "gracefulStop": "2m"
@@ -183,10 +183,6 @@
             "executor": "ramping-arrival-rate",
             "stages": [
                 {
-                    "duration": "1m",
-                    "target": 0
-                },
-                {
                     "duration": "3m",
                     "target": 3000
                 },
@@ -341,6 +337,10 @@
                 {
                     "duration": "1m",
                     "target": "5500"
+                },
+                {
+                    "duration": "1m",
+                    "target": 0
                 }
             ],
             "gracefulStop": "2m"

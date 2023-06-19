@@ -11,7 +11,7 @@
             "executor": "ramping-arrival-rate",
             "stages": [
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 3000
                 },
                 {
@@ -31,7 +31,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 3000
                 },
                 {
@@ -51,7 +51,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 3000
                 },
                 {
@@ -71,7 +71,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 3000
                 },
                 {
@@ -91,7 +91,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 3000
                 },
                 {
@@ -111,7 +111,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 3000
                 },
                 {
@@ -131,7 +131,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 3000
                 },
                 {
@@ -151,7 +151,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 3000
                 },
                 {
@@ -171,7 +171,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 3000
                 },
                 {
@@ -191,7 +191,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 3000
                 },
                 {
@@ -223,7 +223,7 @@
             "executor": "ramping-arrival-rate",
             "stages": [
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 4000
                 },
                 {
@@ -243,7 +243,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 4000
                 },
                 {
@@ -263,7 +263,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 4000
                 },
                 {
@@ -283,7 +283,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 4000
                 },
                 {
@@ -303,7 +303,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 4000
                 },
                 {
@@ -323,7 +323,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 4000
                 },
                 {
@@ -343,7 +343,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 4000
                 },
                 {
@@ -363,7 +363,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 4000
                 },
                 {
@@ -383,7 +383,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 4000
                 },
                 {
@@ -403,7 +403,7 @@
                     "target": 0
                 },
                 {
-                    "duration": "3m",
+                    "duration": "5m",
                     "target": 4000
                 },
                 {

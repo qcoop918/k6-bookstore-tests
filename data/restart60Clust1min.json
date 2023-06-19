@@ -12,7 +12,7 @@
             "stages": [
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 3000
                 },
                 {
                     "duration": "0s",
@@ -32,7 +32,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 3000
                 },
                 {
                     "duration": "0s",
@@ -52,7 +52,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 3000
                 },
                 {
                     "duration": "0s",
@@ -72,7 +72,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 3000
                 },
                 {
                     "duration": "0s",
@@ -92,7 +92,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 3000
                 },
                 {
                     "duration": "0s",
@@ -112,7 +112,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 3000
                 },
                 {
                     "duration": "0s",
@@ -132,7 +132,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 3000
                 },
                 {
                     "duration": "0s",
@@ -152,7 +152,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 3000
                 },
                 {
                     "duration": "0s",
@@ -172,7 +172,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 3000
                 },
                 {
                     "duration": "0s",
@@ -192,7 +192,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 2000
+                    "target": 3000
                 },
                 {
                     "duration": "0s",
@@ -224,7 +224,7 @@
             "stages": [
                 {
                     "duration": "3m",
-                    "target": 3000
+                    "target": 4000
                 },
                 {
                     "duration": "0s",
@@ -244,7 +244,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 3000
+                    "target": 4000
                 },
                 {
                     "duration": "0s",
@@ -264,7 +264,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 3000
+                    "target": 4000
                 },
                 {
                     "duration": "0s",
@@ -284,7 +284,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 3000
+                    "target": 4000
                 },
                 {
                     "duration": "0s",
@@ -304,7 +304,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 3000
+                    "target": 4000
                 },
                 {
                     "duration": "0s",
@@ -324,7 +324,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 3000
+                    "target": 4000
                 },
                 {
                     "duration": "0s",
@@ -344,7 +344,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 3000
+                    "target": 4000
                 },
                 {
                     "duration": "0s",
@@ -364,7 +364,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 3000
+                    "target": 4000
                 },
                 {
                     "duration": "0s",
@@ -384,7 +384,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 3000
+                    "target": 4000
                 },
                 {
                     "duration": "0s",
@@ -404,7 +404,7 @@
                 },
                 {
                     "duration": "3m",
-                    "target": 3000
+                    "target": 4000
                 },
                 {
                     "duration": "0s",

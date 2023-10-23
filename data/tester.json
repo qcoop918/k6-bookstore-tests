@@ -63,11 +63,11 @@
                 },
                 {
                     "duration": "0s",
-                    "target": 3000
+                    "target": 2800
                 },
                 {
                     "duration": "5m",
-                    "target": 3000
+                    "target": 2800
                 },
                 {
                     "duration": "0s",

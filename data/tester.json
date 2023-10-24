@@ -15,27 +15,11 @@
                 },
                 {
                     "duration": "0s",
-                    "target": 3000
+                    "target": 1500
                 },
                 {
                     "duration": "5m",
-                    "target": 3000
-                },
-                {
-                    "duration": "0s",
-                    "target": 3900
-                },
-                {
-                    "duration": "5m",
-                    "target": 3900
-                },
-                {
-                    "duration": "0s",
-                    "target": 3000
-                },
-                {
-                    "duration": "5m",
-                    "target": 3000
+                    "target": 1500
                 }
             ],
             "gracefulStop": "2m"
@@ -55,27 +39,11 @@
                 },
                 {
                     "duration": "0s",
-                    "target": 2000
+                    "target": 1000
                 },
                 {
-                    "duration": "5m",
-                    "target": 2000
-                },
-                {
-                    "duration": "0s",
-                    "target": 2800
-                },
-                {
-                    "duration": "5m",
-                    "target": 2800
-                },
-                {
-                    "duration": "0s",
-                    "target": 2000
-                },
-                {
-                    "duration": "5m",
-                    "target": 2000
+                    "duration": "60m",
+                    "target": 1000
                 }
             ],
             "gracefulStop": "2m"

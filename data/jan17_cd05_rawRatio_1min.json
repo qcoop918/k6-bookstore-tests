@@ -19,11 +19,11 @@
                 },
                 {
                     "duration": "0s",
-                    "target": "3352"
+                    "target": "2835"
                 },
                 {
                     "duration": "1m",
-                    "target": "3352"
+                    "target": "2835"
                 }
             ],
             "gracefulStop": "2m"
@@ -43,11 +43,11 @@
                 },
                 {
                     "duration": "0s",
-                    "target": "2286"
+                    "target": "1828"
                 },
                 {
                     "duration": "1m",
-                    "target": "2286"
+                    "target": "1828"
                 }
             ],
             "gracefulStop": "2m"

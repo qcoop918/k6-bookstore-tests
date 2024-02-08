@@ -1,18 +1,10 @@
 {
     "clusters": [
         [
-            10,
-            9,
-            8,
-            1,
-            7
+            10
         ],
         [
-            33,
-            34,
-            32,
-            35,
-            31
+            33
         ]
     ],
     "indices": [],
@@ -37,38 +29,6 @@
                 {
                     "duration": "1m",
                     "target": 3508
-                },
-                {
-                    "duration": "0s",
-                    "target": 3417
-                },
-                {
-                    "duration": "1m",
-                    "target": 3417
-                },
-                {
-                    "duration": "0s",
-                    "target": 3325
-                },
-                {
-                    "duration": "1m",
-                    "target": 3325
-                },
-                {
-                    "duration": "0s",
-                    "target": 2683
-                },
-                {
-                    "duration": "1m",
-                    "target": 2683
-                },
-                {
-                    "duration": "0s",
-                    "target": 3233
-                },
-                {
-                    "duration": "1m",
-                    "target": 3233
                 }
             ],
             "gracefulStop": "2m"
@@ -93,38 +53,6 @@
                 {
                     "duration": "1m",
                     "target": 2289
-                },
-                {
-                    "duration": "0s",
-                    "target": 2309
-                },
-                {
-                    "duration": "1m",
-                    "target": 2309
-                },
-                {
-                    "duration": "0s",
-                    "target": 2269
-                },
-                {
-                    "duration": "1m",
-                    "target": 2269
-                },
-                {
-                    "duration": "0s",
-                    "target": 2330
-                },
-                {
-                    "duration": "1m",
-                    "target": 2330
-                },
-                {
-                    "duration": "0s",
-                    "target": 2249
-                },
-                {
-                    "duration": "1m",
-                    "target": 2249
                 }
             ],
             "gracefulStop": "2m"

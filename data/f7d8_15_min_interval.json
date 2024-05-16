@@ -1,0 +1,294 @@
+{
+    "clusters": [
+        0,
+        96,
+        192,
+        288,
+        384,
+        480,
+        576,
+        672,
+        768,
+        864,
+        960,
+        1056,
+        1152,
+        1248,
+        1344
+    ],
+    "indices": [],
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_bubble",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "5m",
+                    "target": 2800
+                },
+                {
+                    "duration": "0s",
+                    "target": "2517"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2517"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2542"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2542"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2617"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2617"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2608"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2608"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2650"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2650"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2633"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2633"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2567"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2567"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2517"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2517"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2525"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2525"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2517"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2517"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2533"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2533"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2525"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2525"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2525"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2525"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2517"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2517"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2525"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2525"
+                }
+            ],
+            "gracefulStop": "2m"
+        },
+        "secondScenario": {
+            "exec": "execute_get_bogo",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "5m",
+                    "target": 1800
+                },
+                {
+                    "duration": "0s",
+                    "target": "1611"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1611"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1628"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1628"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1680"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1680"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1674"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1674"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1702"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1702"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1691"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1691"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1645"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1645"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1611"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1611"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1617"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1617"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1611"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1611"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1623"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1623"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1617"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1617"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1617"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1617"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1611"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1611"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1617"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1617"
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

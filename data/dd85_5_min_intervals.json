@@ -1,0 +1,124 @@
+{
+    "clusters": [
+        0,
+        288,
+        576,
+        864,
+        1152
+    ],
+    "indices": [],
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_bubble",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "5m",
+                    "target": 2800
+                },
+                {
+                    "duration": "0s",
+                    "target": "2530"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2530"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2515"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2515"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2738"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2738"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2664"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2664"
+                },
+                {
+                    "duration": "0s",
+                    "target": "2649"
+                },
+                {
+                    "duration": "1m",
+                    "target": "2649"
+                }
+            ],
+            "gracefulStop": "2m"
+        },
+        "secondScenario": {
+            "exec": "execute_get_bogo",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "5m",
+                    "target": 1800
+                },
+                {
+                    "duration": "0s",
+                    "target": "1620"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1620"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1610"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1610"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1762"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1762"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1711"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1711"
+                },
+                {
+                    "duration": "0s",
+                    "target": "1701"
+                },
+                {
+                    "duration": "1m",
+                    "target": "1701"
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

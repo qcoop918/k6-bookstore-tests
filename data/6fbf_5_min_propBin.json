@@ -1,0 +1,133 @@
+{
+    "clusters": [
+        [
+            18,
+            17,
+            19,
+            20,
+            21
+        ],
+        [
+            18,
+            17,
+            19,
+            20,
+            21
+        ]
+    ],
+    "indices": [],
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_bubble",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "5m",
+                    "target": 2800
+                },
+                {
+                    "duration": "0s",
+                    "target": 2998
+                },
+                {
+                    "duration": "1m",
+                    "target": 2998
+                },
+                {
+                    "duration": "0s",
+                    "target": 2971
+                },
+                {
+                    "duration": "1m",
+                    "target": 2971
+                },
+                {
+                    "duration": "0s",
+                    "target": 3024
+                },
+                {
+                    "duration": "1m",
+                    "target": 3024
+                },
+                {
+                    "duration": "0s",
+                    "target": 3050
+                },
+                {
+                    "duration": "1m",
+                    "target": 3050
+                },
+                {
+                    "duration": "0s",
+                    "target": 3076
+                },
+                {
+                    "duration": "1m",
+                    "target": 3076
+                }
+            ],
+            "gracefulStop": "2m"
+        },
+        "secondScenario": {
+            "exec": "execute_get_bogo",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "5m",
+                    "target": 1800
+                },
+                {
+                    "duration": "0s",
+                    "target": 1939
+                },
+                {
+                    "duration": "1m",
+                    "target": 1939
+                },
+                {
+                    "duration": "0s",
+                    "target": 1921
+                },
+                {
+                    "duration": "1m",
+                    "target": 1921
+                },
+                {
+                    "duration": "0s",
+                    "target": 1957
+                },
+                {
+                    "duration": "1m",
+                    "target": 1957
+                },
+                {
+                    "duration": "0s",
+                    "target": 1975
+                },
+                {
+                    "duration": "1m",
+                    "target": 1975
+                },
+                {
+                    "duration": "0s",
+                    "target": 1993
+                },
+                {
+                    "duration": "1m",
+                    "target": 1993
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

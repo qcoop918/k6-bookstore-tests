@@ -1,0 +1,313 @@
+{
+    "clusters": [
+        [
+            18,
+            17,
+            19,
+            20,
+            21,
+            15,
+            22,
+            14,
+            24,
+            23,
+            26,
+            13,
+            27,
+            28,
+            29
+        ],
+        [
+            18,
+            17,
+            19,
+            20,
+            21,
+            15,
+            22,
+            14,
+            24,
+            23,
+            26,
+            13,
+            27,
+            28,
+            29
+        ]
+    ],
+    "indices": [],
+    "scenarios": {
+        "firstScenario": {
+            "exec": "execute_get_bubble",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "5m",
+                    "target": 2800
+                },
+                {
+                    "duration": "0s",
+                    "target": 2998
+                },
+                {
+                    "duration": "1m",
+                    "target": 2998
+                },
+                {
+                    "duration": "0s",
+                    "target": 2971
+                },
+                {
+                    "duration": "1m",
+                    "target": 2971
+                },
+                {
+                    "duration": "0s",
+                    "target": 3024
+                },
+                {
+                    "duration": "1m",
+                    "target": 3024
+                },
+                {
+                    "duration": "0s",
+                    "target": 3050
+                },
+                {
+                    "duration": "1m",
+                    "target": 3050
+                },
+                {
+                    "duration": "0s",
+                    "target": 3076
+                },
+                {
+                    "duration": "1m",
+                    "target": 3076
+                },
+                {
+                    "duration": "0s",
+                    "target": 2919
+                },
+                {
+                    "duration": "1m",
+                    "target": 2919
+                },
+                {
+                    "duration": "0s",
+                    "target": 3102
+                },
+                {
+                    "duration": "1m",
+                    "target": 3102
+                },
+                {
+                    "duration": "0s",
+                    "target": 2893
+                },
+                {
+                    "duration": "1m",
+                    "target": 2893
+                },
+                {
+                    "duration": "0s",
+                    "target": 3155
+                },
+                {
+                    "duration": "1m",
+                    "target": 3155
+                },
+                {
+                    "duration": "0s",
+                    "target": 3129
+                },
+                {
+                    "duration": "1m",
+                    "target": 3129
+                },
+                {
+                    "duration": "0s",
+                    "target": 3207
+                },
+                {
+                    "duration": "1m",
+                    "target": 3207
+                },
+                {
+                    "duration": "0s",
+                    "target": 2867
+                },
+                {
+                    "duration": "1m",
+                    "target": 2867
+                },
+                {
+                    "duration": "0s",
+                    "target": 3233
+                },
+                {
+                    "duration": "1m",
+                    "target": 3233
+                },
+                {
+                    "duration": "0s",
+                    "target": 3260
+                },
+                {
+                    "duration": "1m",
+                    "target": 3260
+                },
+                {
+                    "duration": "0s",
+                    "target": 3286
+                },
+                {
+                    "duration": "1m",
+                    "target": 3286
+                }
+            ],
+            "gracefulStop": "2m"
+        },
+        "secondScenario": {
+            "exec": "execute_get_bogo",
+            "startRate": 0,
+            "startTime": "0s",
+            "timeUnit": "1m",
+            "preAllocatedVUs": 500,
+            "maxVUs": 1000,
+            "executor": "ramping-arrival-rate",
+            "stages": [
+                {
+                    "duration": "5m",
+                    "target": 1800
+                },
+                {
+                    "duration": "0s",
+                    "target": 1939
+                },
+                {
+                    "duration": "1m",
+                    "target": 1939
+                },
+                {
+                    "duration": "0s",
+                    "target": 1921
+                },
+                {
+                    "duration": "1m",
+                    "target": 1921
+                },
+                {
+                    "duration": "0s",
+                    "target": 1957
+                },
+                {
+                    "duration": "1m",
+                    "target": 1957
+                },
+                {
+                    "duration": "0s",
+                    "target": 1975
+                },
+                {
+                    "duration": "1m",
+                    "target": 1975
+                },
+                {
+                    "duration": "0s",
+                    "target": 1993
+                },
+                {
+                    "duration": "1m",
+                    "target": 1993
+                },
+                {
+                    "duration": "0s",
+                    "target": 1886
+                },
+                {
+                    "duration": "1m",
+                    "target": 1886
+                },
+                {
+                    "duration": "0s",
+                    "target": 2011
+                },
+                {
+                    "duration": "1m",
+                    "target": 2011
+                },
+                {
+                    "duration": "0s",
+                    "target": 1868
+                },
+                {
+                    "duration": "1m",
+                    "target": 1868
+                },
+                {
+                    "duration": "0s",
+                    "target": 2046
+                },
+                {
+                    "duration": "1m",
+                    "target": 2046
+                },
+                {
+                    "duration": "0s",
+                    "target": 2029
+                },
+                {
+                    "duration": "1m",
+                    "target": 2029
+                },
+                {
+                    "duration": "0s",
+                    "target": 2082
+                },
+                {
+                    "duration": "1m",
+                    "target": 2082
+                },
+                {
+                    "duration": "0s",
+                    "target": 1850
+                },
+                {
+                    "duration": "1m",
+                    "target": 1850
+                },
+                {
+                    "duration": "0s",
+                    "target": 2100
+                },
+                {
+                    "duration": "1m",
+                    "target": 2100
+                },
+                {
+                    "duration": "0s",
+                    "target": 2118
+                },
+                {
+                    "duration": "1m",
+                    "target": 2118
+                },
+                {
+                    "duration": "0s",
+                    "target": 2136
+                },
+                {
+                    "duration": "1m",
+                    "target": 2136
+                }
+            ],
+            "gracefulStop": "2m"
+        }
+    }
+}

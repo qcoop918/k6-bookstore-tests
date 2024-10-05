@@ -12,3 +12,5 @@ The target url and all "load-test methods" are located in the javascript file.
 The json is additional options that can be passed to configure how the loadtest is run: amount of virtual users, iterations, etc.
 
 The json can optionally be included within the javascript file itself.
+
+For the testing done in my thesis and paper I used matScript.js

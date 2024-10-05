@@ -13,7 +13,7 @@ import {
 let stage1;
 let stage2;
 
-const BaseURL = "http://136.159";
+const BaseURL = "http://136.159.209.203";
 let get_bogo_duration_trend = new Trend('get_bogo_duration_trend', true);
 let get_write_duration_trend = new Trend('get_write_duration_trend', true);
 let get_bubble_duration_trend = new Trend('get_bubble_duration_trend', true);
